@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
 
+:root {
+    --color-primary: #0A3871;
+    --color-secondary: #495057;
+    --color-tertiary: #F3F5FC;
+    --color-background: #ffffff;
+    --color-box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+
 * {
     font-family: 'Inter';
 }
@@ -8,7 +17,7 @@ body {
     margin: 0 auto;
     position: relative;
     height: 1074px;
-    background: #F3F5FC;
+    background: var(--color-tertiary);
 }
 
 section {
@@ -31,8 +40,8 @@ h1 {
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    color: #0A3871;
-    background: #F3F5FC;
+    color: var(--color-primary);
+    background: var(--color-tertiary);
     /*border: none;*/
     resize: none;
 }
@@ -44,7 +53,7 @@ h1 {
 }
 
 .txtEncryptDecrypt::placeholder {
-    color: #0A3871;
+    color: var(--color-primary);
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -56,7 +65,7 @@ h1 {
     width: 200px;
     left: 240px;
     top: 845px;
-    color: #495057;
+    color: var(--color-secondary);
 }
 
 .menssage img {
@@ -73,7 +82,7 @@ h1 {
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
-    color: #495057;
+    color: var(--color-secondary);
     opacity: 0.8;
     flex: none;
     order: 1;
@@ -102,7 +111,7 @@ button {
     gap: 8px;
     width: 328px;
     height: 67px;
-    background: #0A3871;
+    background: var(--color-primary);
     border-radius: 24px;
     flex: none;
     order: 0;
@@ -119,7 +128,7 @@ button {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--color-background);
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -137,8 +146,8 @@ button {
     gap: 8px;
     width: 328px;
     height: 67px;
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
+    background: var(--color-tertiary);
+    border: 1px solid var(--color-primary);
     border-radius: 24px;
     flex: none;
     order: 1;
@@ -153,7 +162,7 @@ button {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #0A3871;
+    color: var(--color-primary);
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -174,8 +183,8 @@ textarea:focus {
     height: 944px;
     left: 1000px;
     top: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background: var(--color-background);
+    box-shadow: 0px 24px 32px -8px var(--color-box-shadow);
     border-radius: 32px;
 }
 
@@ -197,7 +206,7 @@ textarea:focus {
     font-size: 24px;
     line-height: 120%;
     text-align: center;
-    color: #343A40;
+    color: var(--color-secondary);
     flex: none;
     order: 0;
     align-self: stretch;
@@ -216,7 +225,7 @@ textarea:focus {
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-    color: #495057;
+    color: var(--color-secondary);
     flex: none;
     order: 1;
     align-self: stretch;
@@ -242,7 +251,7 @@ textarea:focus {
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
-    color: #495057;
+    color: var(--color-secondary);
     resize: none;
 }
 
@@ -262,8 +271,8 @@ textarea:focus {
     gap: 8px;
     width: 328px;
     height: 67px;
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
+    background: var(--color-tertiary);
+    border: 1px solid var(--color-primary);
     border-radius: 24px;
     flex: none;
     order: 1;
@@ -278,7 +287,7 @@ textarea:focus {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #0A3871;
+    color: var(--color-primary);
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -294,7 +303,7 @@ footer {
 }
 
 footer p {
-    color: #0A3871;
+    color: var(--color-primary);
     text-align: center;
 }
 
@@ -430,7 +439,7 @@ footer p {
         height: 133px;
         left: 20%;
         top: 1001px;
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 24px 32px -8px var(--color-box-shadow);
     }
 
     #rectangle1 img {
@@ -464,7 +473,7 @@ footer p {
         font-weight: 400;
         font-size: 24px;
         line-height: 150%;
-        color: #495057;
+        color: var(--color-secondary);
     }
 
     textarea {
