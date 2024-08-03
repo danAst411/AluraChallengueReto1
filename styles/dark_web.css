@@ -1,0 +1,10 @@
+
+body.dark{
+    --color-primary: #fefeff;
+    --color-secondary: #2793ff;
+    --color-tertiary: #000000;
+    --color-background: #424141;
+    --color-backgraund-area:   #424141;
+    --color-box-shadow: rgba(255, 255, 255, 0.08);
+  }
+  

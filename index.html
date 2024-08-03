@@ -9,11 +9,25 @@
     <title>Encriptador de texto - Alura Challenges ONE</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/dark_web.css" />
+    <link rel="stylesheet" href="styles/darkmodebutton.css"/>
+   
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
 </head>
 
 <body>
     <header>
-        <h1><img src="assets/Logo.png" alt="Logo-Alura"></h1>
+        <div class="copy_texto">
+            <button class="darkModeSwitch ms-2" id="switch">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span> 
+                </button>
+            </div>
+        <div class="divHeder"> 
+        <img src="assets/Logo.png" alt="Logo-Alura">
+    </div>
+    
     </header>
     <main>
         <section>
@@ -21,7 +35,6 @@
                 <textarea id="txtEncryptDecrypt" type="text" class="txtEncryptDecrypt" name="" id="" cols="30" rows="10"
                     placeholder="Ingrese el texto aqui"></textarea>
             </div>
-
 
             <div class="menssage">
                 <img src="assets/alerta.png" alt="signo de alerta">
@@ -55,6 +68,8 @@
         <p> &copy;Victor Analuiza - 2024 </p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/dark_web.js"></script>
+   
 </body>
 
 </html>

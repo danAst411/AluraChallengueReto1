@@ -6,6 +6,7 @@
     --color-tertiary: #F3F5FC;
     --color-background: #ffffff;
     --color-box-shadow: rgba(0, 0, 0, 0.08);
+    --color-backgraund-area:  #ffffff;
 }
 
 
@@ -29,6 +30,16 @@ h1 {
     padding: 40px 0 0 84px;
 }
 
+.copy_texto button {
+    
+    float: inline-end;
+    
+}
+
+.divHeder{
+    padding: 40px 40px;
+
+}
 .txtEncryptDecrypt {
     position: absolute;
     padding-right: 1%;
@@ -75,7 +86,7 @@ h1 {
 
 .menssage p {
     left: 24px;
-    width: 205px;
+    width: 305px;
     height: 18px;
     position: absolute;
     font-style: normal;
@@ -84,7 +95,7 @@ h1 {
     line-height: 150%;
     color: var(--color-secondary);
     opacity: 0.8;
-    flex: none;
+    flex: auto;
     order: 1;
     flex-grow: 0;
 }
@@ -253,6 +264,7 @@ textarea:focus {
     line-height: 150%;
     color: var(--color-secondary);
     resize: none;
+    background-color: var(--color-backgraund-area);
 }
 
 #rectangle2::placeholder {
